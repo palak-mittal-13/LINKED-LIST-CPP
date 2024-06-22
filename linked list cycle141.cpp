@@ -1,45 +1,59 @@
-// in this question we have to check whether there is cycle present or not
-/*
+// #include<iostream>
+// using namespace std;
 
-approach1: using map
-           // 1approach is if the address repeats then there is a loop in linkedlist. map is used if true repeats for same address which we have marked while visiting to that node then we say that there is a loop.
+// class Node{
+// public:
+// int data;
+// Node*next;
+
+//  Node(){
+//         cout<<"I am inside default ctor"<<endl;
+//         this->next=NULL;
+//      }
+//      // ctor
+//      Node(int data){
+//         cout<<"I am inside one parameterized ctor"<<endl;
+//         this->data=data;
+//         this->next=NULL;
+//      }
+
+//     // dtor
+//     ~Node(){
+//      cout<<"destructor called, data value deleted is: "<<this->data<<endl;
+//     }
+
+// };
+
+// bool checkloop(Node* &head){
+// Node*fast=head;
+// Node*slow=head;
+
+// while(fast!=NULL){
+//    fast=fast->next;
+//   if(fast!=NULL){
+//    fast=fast->next;
+//    slow=slow->next;
+//   }
+  
+//   if(fast==slow){
+//     return true;
+//   }
+
+// }
+//   return false;
+// }
+
+// //  approach2 by tortoise algo
+
+
+// int main(){
+
+//   return 0;
+// }
 
 
 
-*/
-
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-/*
-
-//approach1
 
 
-class Solution {
-public:
-    bool hasCycle(ListNode *head) {
 
-        map<ListNode*, bool>table;
-        ListNode *temp=head;
-
-        while(temp!=NULL){
-            if(table[temp]==false){
-                table[temp]=true;
-            }
-            else{
-                return true;
-            }
-           temp=temp->next;
-        }
-
-     // loop not present
-      return false;
-    }
-};
-*/
+// */

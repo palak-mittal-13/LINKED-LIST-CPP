@@ -1,0 +1,11 @@
+quick and merge sort work best for arrays or linked list?
+
+        Quick Sort:
+
+Best for arrays due to efficient index-based access and in-place sorting.
+Average complexity: O(n log n), worst-case complexity: O(n^2) (with optimizations, can be O(n log n)).
+
+       Merge Sort:
+
+Best for linked lists due to efficient merging and stability.
+Time complexity: O(n log n) consistently, with space complexity being O(1) for linked lists and O(n) for arrays.
